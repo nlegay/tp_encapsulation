@@ -27,6 +27,6 @@ public class ArticlesAvecPrix {
  		stock.retirer(nombre);
  	}
 	public String toString(){
- 		return stock.toString();
+ 		return stock.toString()+"prix unitaire : "+prixUnitaire+", prix Total : "+prixTotal;
  	}
 }
